@@ -54,7 +54,7 @@ export default function Sobre() {
         <section className="container-secao-sobre-nos">
           <div className="limitar-secao">
             <h2>Pagamentos</h2>
-            <span>Pix, boleto, Crédito via link</span>
+            <span>Pix, boleto e crédito via link</span>
             </div>
           </section>
 
