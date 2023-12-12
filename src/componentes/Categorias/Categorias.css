@@ -1,0 +1,45 @@
+.secao_categorias {
+    width: 100%;
+    max-width: 1230px ;
+    margin: auto;
+    
+  }
+
+  .icone img {
+    width: 100%;
+    height: 10px;
+  }
+  
+  .secao_categorias div h2{
+    margin-bottom: 20px;
+  }
+  
+  .container_botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .container_botoes button {
+    padding: 10px 0px;
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+  }
+  
+  .container_botoes button:hover {
+    background-color: #96513a ;
+  }
+  
+  .acenderBtn {
+    background-color: rgb(247, 127, 57);
+  }

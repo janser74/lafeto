@@ -1,0 +1,154 @@
+.secao-banner {
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/fran.png'); 
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(150,81,58);
+  }
+
+  .texto-banner {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    text-align: center;
+  
+  }
+  
+  .texto-banner p {
+    margin-top: 60px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 5px 2px #5f2c1b;
+    font-family: "Wonderful Branding";
+    line-height: normal;
+  }
+  
+  .secao,
+  .secao-nosso-cardapio {
+    display: flex;
+  }
+  
+  .secao img,
+  .secao-nosso-cardapio img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .texto-secao,
+  .texto-secao-nosso-cardapio {
+    width: 50%;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-secao p {
+    font-family: "NotoSansTakri-Regular";
+  }
+
+  .texto-secao-nosso-cardapio h2 {
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+  }
+  
+  .texto-secao span,
+  .texto-secao-nosso-cardapio span{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .texto-secao p,
+  .texto-secao-nosso-cardapio p {
+    padding: 0 100px;
+    line-height: 26px;
+    margin: 40px 0;
+    font-family: "NotoSansTakri-Regular";
+  }
+  
+  @media screen and (max-width: 1024px) {
+  
+    .texto-banner p {
+      font-size: 50px;
+      margin-bottom: 320px;
+      
+    }
+
+     .texto-secao-nosso-cardapio p,
+     .texto-secao p {
+       padding: 0px 50px
+     }
+  
+    }
+  
+  @media screen and (max-width: 800px){
+  
+    .texto-banner p {
+      font-size: 40px;
+      margin-bottom: 320px;
+      
+    }
+  
+    .secao{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao img {
+      width: 100%;
+    }
+  
+    .texto-secao,
+    .texto-secao-nosso-cardapio {
+      width: 100%;
+      padding: 100px 10px;
+      text-align: center;
+    }
+
+
+  
+    .secao-nosso-cardapio {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .secao-nosso-cardapio img {
+      width: 100%;
+    }
+  
+  }
+
+  
+  @media screen and (max-width: 508px){
+    .texto-banner p {
+      font-size: 30px;
+    }
+  
+    .texto-secao-nosso-cardapio h2,
+    .texto-secao h2 {
+      line-height: 40px;
+    }
+  }
+
+
+
+
+  @font-face {
+    font-family: "Wonderful Branding";
+    src: local(WonderfulBranding), url(/public/fonts/WonderfulBranding.ttf);
+  }
+
+  @font-face {
+    font-family: "NotoSansTakri-Regular";
+    src: local(NotoSansTakri-Regular), url(/public/fonts/NotoSansTakri-Regular.ttf);
+  }

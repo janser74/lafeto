@@ -1,0 +1,46 @@
+.areaCampo {
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  .areaCampo :hover {
+    border: 1px solid rgba(253, 3, 3, 0.514);
+  }
+
+  input:focus {
+    background-color: rgb(241, 226, 226);
+  }
+  
+  .icone {
+    width: 30px;
+    height: auto;
+  }
+  
+  .areaCampo input {
+    width: 100%;
+    padding: 0px 5px;
+    border: 0;
+    border-radius: 10px;
+    outline-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(3, 3, 3);
+  }
+  
+  .areaCampo input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 425px) {
+    .areaCampo input::placeholder {
+      font-size: 12px;
+    }
+  }

@@ -1,0 +1,109 @@
+main {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .secao-banner-sobre {
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(#bb765f, rgb(245, 245, 239));
+    font-family: "Wonderful Branding";
+  
+  }
+  
+  .titulo-banner-sobre h1{
+    color: rgb(114, 61, 61);
+    font-size: 100px;
+    text-shadow: 3px 5px 2px #f0e9e9;
+    font-family: "Wonderful Branding";
+  }
+
+  .container-secao-sobre-nos div {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(223, 191, 191);
+    border-radius: 4px;
+    box-shadow: 2px 2px 15px 2px #ad7859;
+    margin: 10px auto 10px auto;
+    background-image: linear-gradient(to bottom right, rgb(245, 245, 239), rgba(187,118,95, 0.3));
+  }
+  
+  .container-secao-sobre-nos h2{
+    color: #79523c;
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .container-secao-sobre-nos span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .container-secao-sobre-nos p {
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+  
+  .container-secao-imagens div {
+    display: flex;
+  }
+  
+  .container-secao-imagens img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+   
+  }
+  
+  @media screen and (max-width: 320px) {
+    .container-secao-imagens img {
+      width: 250px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .titulo-banner-sobre h1 {
+      font-size: 60px;
+    }
+  
+    .container-secao-imagens div {
+      flex-direction: column;
+    }
+  
+    .container-secao-imagens img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 436px){
+    .titulo-banner-sobre h1 {
+      font-size: 40px;
+    }
+  }
+
+  
+  @font-face {
+    font-family: "Wonderful Branding";
+    src: local(WonderfulBranding), url(/public/fonts/WonderfulBranding.ttf);
+  }
+
+  @font-face {
+    font-family: "NotoSansTakri-Regular";
+    src: local(NotoSansTakri-Regular), url(/public/fonts/NotoSansTakri-Regular.ttf);
+  }

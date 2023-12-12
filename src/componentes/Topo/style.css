@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(107, 65, 1);
+  }
+  
+  header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    width: auto;
+    height: 60px;
+  }
+  
+  header nav {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .link-topo {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(241, 233, 233);
+    text-decoration: none;
+  }
+
+  .link-info {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    text-shadow: 2px 1px 2px #f0eeee;
+}
+
+.link-info:hover {
+  background-color:rgb(107, 65, 1);
+}
+
+.contato img {
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+  
+  @media screen and (max-width: 662px){
+    header div{
+      flex-direction: column;
+    }
+  
+    header nav {
+      border-top: 1px solid grey;
+      width: 100%;
+      justify-content: space-around;
+      padding-top: 10px;
+    }
+  }
