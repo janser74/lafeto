@@ -29,8 +29,10 @@
     margin-top: 40px;
   }
 
+  .container_informacoes p {
+    text-align: center;
+  }
 
-  
   .container_informacoes div:nth-child(1) {
     flex-grow: 1;
     display: flex;

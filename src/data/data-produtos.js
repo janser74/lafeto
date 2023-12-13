@@ -66,7 +66,7 @@ export const produtos = [
     categoria: "Natal Varejo",
     preco: "A partir de R$ 185",
     descricao:
-      "Base de farofa amanteigada, brigadeiro de maracujá, morangos frescos inteiros, ganache de chocolate 50% cacau, finalizada com morangos frescos.(Serve aprox. 20pedaços)",
+      "Base de farofa amanteigada, brigadeiro de maracujá, morangos frescos inteiros, ganache de chocolate 50% cacau, finalizada com morangos frescos.(Serve aprox. 20 pedaços).",
     imagem: torta2,
   },
   {
@@ -93,7 +93,7 @@ export const produtos = [
     categoria: "Natal Varejo",
     preco: "R$ 59,90",
     descricao:
-      "Pequenos dadinhos de Chocotone banhado no chocolate 50% cacau",
+      "Pequenos dadinhos de Chocotone banhado no chocolate 50% cacau.",
     imagem: presente1,
   },
   {

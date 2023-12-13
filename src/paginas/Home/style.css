@@ -47,12 +47,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   justify-content: center;
+    
   }
   
-  .texto-secao p {
-    font-family: "NotoSansTakri-Regular";
-  }
 
   .texto-secao-nosso-cardapio h2 {
     font-size: 35px;
@@ -74,6 +72,7 @@
     line-height: 26px;
     margin: 40px 0;
     font-family: "NotoSansTakri-Regular";
+    text-align: justify;
   }
   
   @media screen and (max-width: 1024px) {
